@@ -44,9 +44,14 @@
 
 .part1{
     
-    background-color: #c9d9ba;
+    background-color: #97a38f;
     height: 90vh;
-    background-image: url('/img/bg2.webp');
-    /* background-size: cover; */
+    background-image:  url('/img/bg5flipped.jpg');
+    /* background: rgba(0, 0, 0, 0.7); */
+    /* background-blend-mode: darken; */
+    background-size: cover;
+    background-attachment: fixed;
     
     /* background: no-repeat */
+
+}

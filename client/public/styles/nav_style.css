@@ -1,5 +1,5 @@
 .navbar-brand{
-    color: rgb(218, 224, 222) !important;
+    color: rgb(77, 122, 73) !important;
     /* background: black; */
     font-size: 28px;
     /* margin-top: %; */
@@ -7,13 +7,29 @@
 .nav-link{
     font-size: 18px;
     color: rgb(37, 54, 10);
+    display: inline-block;
 }
 .nav-link:hover{
-    color: aliceblue;
+    color: rgb(37, 134, 45);
+    transition: 0.3s;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: rgb(65, 97, 65);
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
 }
 
 .navbar{
-    background-color: #749F82;
+    background-color: #b7c8a2;
     position: sticky;
 }
 
@@ -26,8 +42,10 @@
 }
 
 .btn:hover{
-    background: #425F57;
-    border-color: #425F57;
+    background: rgba(69, 94, 29, 0.523);
+    border-color: rgb(69, 94, 29, 0.523);
+    opacity: 0.9;
+    
     /* color: ; */
 }
 
