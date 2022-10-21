@@ -1,0 +1,33 @@
+.navbar-brand{
+    color: rgb(218, 224, 222) !important;
+    /* background: black; */
+    font-size: 28px;
+    /* margin-top: %; */
+}
+.nav-link{
+    font-size: 18px;
+    color: rgb(37, 54, 10);
+}
+.nav-link:hover{
+    color: aliceblue;
+}
+
+.navbar{
+    background-color: #749F82;
+    position: sticky;
+}
+
+.btn{
+    color: aliceblue;
+    border-color: aliceblue;
+    width: 5.7%;
+    border-radius: 3%;
+    
+}
+
+.btn:hover{
+    background: #425F57;
+    border-color: #425F57;
+    /* color: ; */
+}
+
