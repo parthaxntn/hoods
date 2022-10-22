@@ -1,7 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
+import Login from './Login'
 
-const Navbar = () => {
+const Navbar = (props) => {
+
+  const [logged, setLogged] = useState(false)
+  const {user, setUser, password, setPassword, setFlash} = props
+
   return (
     <div>
         <link rel="stylesheet" href="/styles/nav_style.css"/>
@@ -29,12 +34,19 @@ const Navbar = () => {
       </ul>
       {/* <form class="d-flex" role="Login"> */}
         {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
-        <button class="btn btn-outline-success" type="Login_btn">Login</button>
+        <button class="btn btn-outline-success" onClick={()=>{setLogged(false)}} type="Login_btn">{user}</button>
       {/* </form> */}
     </div>
   </div>
 </nav>
     
+{logged === true?'':
+  (
+    <Login setLogged={setLogged} setUser={setUser} password={password} setPassword={setPassword} setFlash = {setFlash}/>
+  )
+
+}
+
     </div>
   )
 }

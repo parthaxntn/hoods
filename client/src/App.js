@@ -11,17 +11,23 @@ import {
   Route,
   Router,
 } from "react-router-dom";
+import { useState } from 'react';
+import Login from './components/Login';
 
 
 function App() {
+
+  const [user, setUser] = useState('')
+  const [password, setPassword] = useState('')
+  const [flash, setFlash] = useState('')
+
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar/>
+      <Navbar setUser={setUser} user = {user} password={password} setPassword={setPassword} setFlash = {setFlash}/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={<Home setUser={setUser} password={password} setPassword={setPassword} setFlash = {setFlash}/>}/>
         <Route path='/about' element={<About/>}/>
-
 
       </Routes>
       
