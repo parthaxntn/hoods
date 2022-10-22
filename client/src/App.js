@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 import { useState } from 'react';
 import Login from './components/Login';
+import Flash from './components/Flash';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Flash flash={flash} setFlash={setFlash}/>
       <Navbar setUser={setUser} user = {user} password={password} setPassword={setPassword} setFlash = {setFlash}/>
       <Routes>
         <Route path='/' element={<Home setUser={setUser} password={password} setPassword={setPassword} setFlash = {setFlash}/>}/>
