@@ -2,20 +2,20 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div class="About">
+    <div class="about-section">
       <link rel="stylesheet" href="/styles/about.css"/>
-      <p class="title"><h3>About Us</h3></p>
-      <br/>
-      <br/>
-      <div class="wrap">
-	      <div class="base">
-		      <div class="flowerpot"></div>
-		      <div class="blade blade-center"></div>
-		      <div class="blade blade-left-s"></div>
-		      <div class="blade blade-right-s"></div>
-		      <div class="blade blade-left-l"></div>
-		      <div class="blade blade-right-l"></div>
-	      </div>
+      <div class="inner-container">
+        <h1>About Us</h1>
+        <p class="test">
+        We at Hoods, care about nature, which extends us to provide solutions for plant diseases.
+         We are presenting a Machine Learning based web application as a solution for detecting various common diseases faced by plants.
+
+        </p>
+        <div class="skills">
+          <span>Point 1</span>
+          <span>Point 2</span>
+          <span>Point 3</span>
+        </div>
       </div>
     </div>
   )
