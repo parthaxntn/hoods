@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero_Sec from './components/Hero_Sec';
 import About from './components/About';
+
 import {
   BrowserRouter,
   Routes,
@@ -30,7 +31,6 @@ function App() {
         <Route path='/about' element={<About/>}/>
 
       </Routes>
-      
       <Footer/>
 
       </BrowserRouter>

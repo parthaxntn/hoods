@@ -1,0 +1,45 @@
+
+
+.upload-box{
+    height: 110vh;
+    background-image: linear-gradient(to bottom right, #edece9,#b6be96 );
+    /* background-color: #e3e2df; */
+
+    
+
+}
+
+.box-mainxx{
+    /* margin-top: 3rem;  */
+    padding-top: 3rem;
+    background-color: rgba(158, 187, 146, 0.376);
+    height: 60vh;
+    width: 40%;
+    margin-left: 30rem;
+    /* margin-right: 19rem; */
+    
+    justify-content: center;
+} 
+
+.upl-btn{
+    margin-top: 20rem;
+    border-color: rgb(108, 155, 124);
+    border-width: 1.1px;
+    border-radius: 1px;
+}
+.info{
+    /* text-align: left; */
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    font-size: 20px;
+}
+.info h3{
+    font-size: 30px;   
+    padding-bottom: 2rem; 
+}
+.upl-btn:hover{
+    background: rgba(69, 94, 29, 0.523);
+    border-color: rgb(69, 94, 29, 0.523);
+    opacity: 0.7;
+    transition: 0.3s;
+}
