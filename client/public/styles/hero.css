@@ -1,0 +1,57 @@
+
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+.firstHalf{
+    width: 90%;
+    text-align: left;
+    margin-left: -27rem;
+    color: rgb(0, 0, 0);
+    padding-top: 7rem;
+    /* backdrop-filter: blur(5px); */
+    /* display: flex; */
+    /* justify-content: center; */
+    
+}
+
+.text-big0{
+    font-size: 56px;
+    margin-left: -3px;
+}
+
+.text-small{
+    font-size: 22px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    /* font-family: 'Dosis', sans-serif; */
+}
+
+
+.secondHalf{
+    width: 30%;
+    margin-top: 5rem;
+}
+.secondHalf img{
+    width: 130%;
+    box-shadow: 0px 0px 20px #6e6e6e;
+    border-radius: 5px;
+}
+
+.part1{
+    
+    background-color: #97a38f;
+    height: 90vh;
+    background-image:  url('/img/bg5flipped.jpg');
+    /* background: rgba(0, 0, 0, 0.7); */
+    /* background-blend-mode: darken; */
+    background-size: cover;
+    background-attachment: fixed;
+    
+    /* background: no-repeat */
+
+}
