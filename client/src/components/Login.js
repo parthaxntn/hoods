@@ -1,6 +1,9 @@
 import React from 'react'
 
-const upload = () => {
+const Login = () => {
+
+    
+
   return (
     <div>
       
@@ -8,4 +11,4 @@ const upload = () => {
   )
 }
 
-export default upload
+export default Login

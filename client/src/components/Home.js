@@ -1,10 +1,11 @@
 import React from 'react'
+import Hero_Sec from './Hero_Sec'
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Hero_Sec/>
+    </>
   )
 }
 

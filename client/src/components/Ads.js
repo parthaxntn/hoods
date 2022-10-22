@@ -1,6 +1,6 @@
 import React from 'react'
 
-const upload = () => {
+const Ads = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const upload = () => {
   )
 }
 
-export default upload
+export default Ads

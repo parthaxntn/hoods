@@ -5,17 +5,28 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero_Sec from './components/Hero_Sec';
 import About from './components/About';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Router,
+} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Navbar/>
-      {/* <Home/> */}
-      <Hero_Sec/>
-      <About/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+
+
+      </Routes>
       <Footer/>
 
+      </BrowserRouter>
     </div>
     
   );
