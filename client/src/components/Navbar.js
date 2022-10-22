@@ -34,7 +34,7 @@ const Navbar = (props) => {
       </ul>
       {/* <form class="d-flex" role="Login"> */}
         {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
-        <button class="btn btn-outline-success" onClick={()=>{setLogged(false)}} type="Login_btn">{user}</button>
+        <button class="btn btn-outline-success" onClick={()=>{setLogged(false)}} type="Login_btn">{user === 'default'? 'Login':user}</button>
       {/* </form> */}
     </div>
   </div>
