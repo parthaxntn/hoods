@@ -4,7 +4,7 @@ import Login from './Login'
 
 const Navbar = (props) => {
 
-  const [logged, setLogged] = useState(false)
+  const [logged, setLogged] = useState(true)
   const {user, setUser, password, setPassword, setFlash} = props
 
   return (

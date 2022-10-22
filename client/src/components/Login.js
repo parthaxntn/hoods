@@ -74,7 +74,7 @@ const Login = (props) => {
     <>
     <div className="backdrop"></div>
     <div className='container login-section'>
-        <button className='close'><ImCross/></button>
+        <button className='close' onClick={()=>{setLogged(true)}}><ImCross/></button>
         <link rel="stylesheet" href="/styles/login.css" />
         <img src="/img/login_illu.png" className="login-img" alt="" />
         <div className="inpts">
