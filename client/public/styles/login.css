@@ -25,3 +25,20 @@
     background: transparent;
     border: 0px;
 }
+
+
+.inpts{
+    margin-top: 4rem;
+}
+.user-name{
+    padding-bottom: 4rem;
+
+}
+.pass{
+    padding-bottom: 10rem;
+}
+
+.inpts-btns{
+    justify-content: center;
+    
+}

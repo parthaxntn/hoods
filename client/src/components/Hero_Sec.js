@@ -9,8 +9,12 @@ const Hero_Sec = () => {
           <p class="text-big0">EASE UP <br/> HOME FARMING</p>
           
           <p class="text-small">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, rem. Neque ab, quae minima ea totam rerum eius 
-            ipsam architecto nihil voluptatum. Hic impedit qui adipisci aliquid iste, officia fuga.
+            <br/>
+            Making home farming easy. Reducing plants failure<br/>
+            
+            Growing healthy and disease free farming at you control <br/>
+
+
           </p>
           
         </div>

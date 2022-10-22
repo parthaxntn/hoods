@@ -78,8 +78,12 @@ const Login = (props) => {
         <link rel="stylesheet" href="/styles/login.css" />
         <img src="/img/login_illu.png" className="login-img" alt="" />
         <div className="inpts">
+          <div class="user-name">
             <input type="text" value={userTemp} onChange={(e)=>{setUserTemp(e.target.value)}} name="User" id="user" placeholder='Enter your username..' />
+          </div>  
+          <div class="pass">
             <input type="password" value={passTemp} onChange={(e)=>{setPassTemp(e.target.value)}} name="password" id="password" placeholder='Enter your password..' />
+          </div>  
             <div className="inpts-btns d-flex my-2">
               <button className='inpts-user' onClick={()=>{login(userTemp,passTemp)}} >Login</button>
               <button className='inpts-user' onClick={()=>{setPassword(passTemp);signUp(userTemp)}} >SignUp</button>
